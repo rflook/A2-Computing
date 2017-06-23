@@ -42,3 +42,10 @@ for i in range(0,8):
     previousLoc = newLoc
 
 print(lList)
+
+#this code should output each node in turn
+nextNode = startNode
+while nextNode != None:
+    print(lList[nextNode])
+    nextNode = list[nextNode][1]
+    
